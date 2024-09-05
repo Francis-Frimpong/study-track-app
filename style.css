@@ -35,8 +35,12 @@ body{
     padding-right: .3em;
 }
 
+#minutes, .placeholder-min {
+    display: flex;
+}
 
-#seconds {
+#seconds , .placeholder-sec{
+    display: flex;
     padding-top: 2.5em;
     color: #D16B6B;
 }
